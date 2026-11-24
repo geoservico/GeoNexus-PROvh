@@ -1,0 +1,20 @@
+[general]
+name=GeoNexus PROvh
+description=GeoNexus PROvh - Análise Espacial & Geotecnologias para QGIS.
+version=1.2
+qgisMinimumVersion=3.40
+author=Forgegeo & Geoserviço
+email=assinatura.geoservico@gmail.com
+about=GeoNexus PROvh is a QGIS plugin developed to assist in the technical analysis of the CAR (Rural Environmental Registry) through the processing of geographic layers, comparison of official databases for all Brazilian States
+category=Web
+repository=https://github.com/geoservico/GeoNexus-PRO
+homepage=https://forgegeo.com.br/
+tracker=https://github.com/geoservico/GeoNexus-PRO/issues
+icon=icon.png
+tags=geonexus, qgis, car, environmental, rural, ambiental, analysis, bahia, goias, tocantins, matogrosso
+experimental=False
+deprecated=False
+license=GPL version 2 or later
+license_file=LICENSE
+server=False
+
