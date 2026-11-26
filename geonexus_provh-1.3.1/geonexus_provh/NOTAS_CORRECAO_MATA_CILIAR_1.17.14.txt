@@ -1,0 +1,15 @@
+GeoNexus PROvh 1.17.14 — correção Mata Ciliar I/II
+
+Correção pontual da leitura dos nomes de camadas WMS no projeto PA.
+Os projetos QGZ podem codificar espaços como + (ex.: MATA+CILIAR+II).
+A versão anterior usava unquote(), que não converte + em espaço,
+impedindo a detecção das duas camadas do host legado.
+Agora unquote_plus() é usado na verificação das camadas do host legado
+e na normalização dos nomes de camadas PA antes do gateway WMS.
+Não altera API, autenticação, credenciais ou QGZ oficial do servidor.
+
+Instale este ZIP no QGIS e reinicie o QGIS. Faça novo download do
+projeto do Pará; o projeto já baixado anteriormente não é corrigido
+automaticamente pela instalação.
+
+Teste estático e regressão de URI executados; validação real requer QGIS.
